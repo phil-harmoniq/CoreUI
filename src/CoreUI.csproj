@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>CoreUI</Title>
+    <Authors>ph-hawkins</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionSuffix>alpha-1</VersionSuffix>
+    <Description>Crossplatform UI Library based on DevZH.UI</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/phil-harmoniq/CoreUI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/phil-harmoniq/CoreUI</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/phil-harmoniq/CoreUI/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>http://imgur.com/SrnAEEq.png</PackageIconUrl>
+    <AssemblyTitle>CoreUI</AssemblyTitle>
+    <PackageTags>GUI;UI;linux;mac;windows;unix;Core;CoreUI;CoreUI</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
