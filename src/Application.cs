@@ -12,6 +12,9 @@ using CoreUI.Utils;
 
 namespace CoreUI
 {
+    /// <summary>
+    /// Root UI class
+    /// </summary>
     public class Application : IDisposable
     {
         private static Application _instance;
@@ -39,7 +42,6 @@ namespace CoreUI
 
         public Application(bool hiddenConsole = true)
         {
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             var locks = _lock;
             lock (locks)
             {

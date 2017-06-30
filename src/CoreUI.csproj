@@ -16,8 +16,4 @@
     <PackageTags>GUI;UI;linux;mac;windows;unix;Core;CoreUI;CoreUI</PackageTags>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.3.0" />
-  </ItemGroup>
-
 </Project>

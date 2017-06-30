@@ -11,7 +11,7 @@ namespace CoreUI.SimpleSample
     {
         public static void Main(string[] args)
         {
-            var app = new Application();
+            var app = new Application(hiddenConsole: true);
             var window = new MainWindow("libui Control Gallery", 640, 480, true);
             window.AllowMargins = true;
             app.Run(window);
