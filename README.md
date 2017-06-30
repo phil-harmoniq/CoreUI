@@ -1,4 +1,4 @@
-# Console Colors [![License][License]](LICENSE.md)
+# CoreUI [![License][License]](LICENSE.md)
 
 [License]: https://img.shields.io/badge/License-MIT-blue.svg
 
