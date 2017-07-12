@@ -7,6 +7,7 @@ using CoreUI.Interop;
 
 namespace CoreUI
 {
+    /// Boxes provide the backbone structure for the UI layout
     public abstract class BoxContainer : ContainerControl<BoxItemCollection, BoxContainer>
     {
 

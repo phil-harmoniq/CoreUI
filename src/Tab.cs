@@ -8,6 +8,7 @@ using CoreUI.Utils;
 
 namespace CoreUI
 {
+    /// Selectable container for multiple Control children
     public class Tab : ContainerControl<TabPageCollection, Tab>
     {
         public Tab()

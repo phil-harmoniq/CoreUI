@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../src/CoreUI.csproj" />
+    <ProjectReference Include="../../src/CoreUI.csproj" />
   </ItemGroup>
 
 </Project>

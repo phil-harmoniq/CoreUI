@@ -11,6 +11,7 @@ using CoreUI.Utils;
 
 namespace CoreUI
 {
+    /// Window manager and parent to all child classes
     public class Window : Control
     {
         private static readonly Dictionary<IntPtr, Window> Windows = new Dictionary<IntPtr, Window>();
